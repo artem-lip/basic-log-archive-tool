@@ -1,3 +1,3 @@
 #!/bin/sh
 directory=$1
-tar -czf $1 "${directory}.tar.gz" $directory
+tar -czf "${directory}.tar.gz" $directory
